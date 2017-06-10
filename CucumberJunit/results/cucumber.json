@@ -1,0 +1,92 @@
+[
+  {
+    "id": "test-cucumber-with-bose",
+    "description": "",
+    "name": "Test Cucumber with Bose",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 2782352973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.closeAllBrowse()"
+            }
+          }
+        ],
+        "id": "test-cucumber-with-bose;successful-login-with-valid-credentials",
+        "before": [
+          {
+            "result": {
+              "duration": 13659175155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.intializeTest()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Successful Login with Valid Credentials",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 10521655008,
+              "status": "passed"
+            },
+            "name": "User is on Home Page",
+            "keyword": "Given ",
+            "line": 3,
+            "match": {
+              "location": "StepDefinition.user_is_on_Home_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8864477,
+              "status": "passed"
+            },
+            "name": "User Navigate to LogIn Page",
+            "keyword": "When ",
+            "line": 4,
+            "match": {
+              "location": "StepDefinition.user_Navigate_to_LogIn_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 28841,
+              "status": "passed"
+            },
+            "name": "User enters UserName and Password",
+            "keyword": "And ",
+            "line": 5,
+            "match": {
+              "location": "StepDefinition.user_enters_UserName_and_Password()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37151,
+              "status": "passed"
+            },
+            "name": "Message displayed Login Successfully",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "StepDefinition.message_displayed_Login_Successfully()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "src/test/java/testFeature/Test.feature"
+  }
+]
