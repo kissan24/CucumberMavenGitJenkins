@@ -29,7 +29,7 @@ public class TestBase {
 	}
 
 	public static void launchUrl(){
-		driver.get("https://www.colruyt.be/nl");
+		driver.get("");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
